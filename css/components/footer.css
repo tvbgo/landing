@@ -1,0 +1,24 @@
+
+#footer {
+  background-color: rgba(80, 80, 80, 0.8);
+  height: 250px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px rgba(100, 100, 100, 0.3);
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  font-size: 35px;
+  margin: 10px;
+  color: rgba(117, 214, 86, 0.8);
+
+}
+.made-by {
+  text-align: center;
+  color: black;
+  font-weight: light;
+  font-size: 12px;
+}
