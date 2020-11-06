@@ -5,14 +5,19 @@
   align-items: center;
   margin: 10px;
 }
+.hide {
+  display: none;
+}
 
 .card {
   text-align: center;
   border: 1px solid rgba(200, 200, 200, 0.5);
   box-shadow: 1px 1px rgba(200, 200, 200, 0.5);
   padding: 15px;
-
-
+  margin-bottom: 10px;
+}
+.card:hover .hide {
+  display: block;
 }
 .card-description  {
   margin-top: 40px;
@@ -24,6 +29,8 @@
   font-weight: lighter;
   font-size: 15px;
 }
+
+
 
 .fas {
   font-size: 50px;
