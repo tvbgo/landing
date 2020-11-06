@@ -1,5 +1,5 @@
 .banner {
-  background-image: url('http://unsplash.it/1000/800/?random');
+  background-image: url('../../images/banner-pic.jpg');
   background-size: cover;
   height: 500px;
   margin-bottom: 10px;
@@ -14,12 +14,14 @@
   margin-left: 100px;
 }
 .banner-content h1 {
+  font-size: 45px;
   margin: 0;
 }
 .banner-content p {
+  font-size: 35px;
+  font-style: italic;
   margin-top: 0;
 }
-
 
 .btn-treehouse {
   color:  white;
